@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prvi domaci zadatak</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--zaglavlje-->
+        <h1>My first heading</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Pages</a></li>
+
+        </ul>
+    </header>
+    <hr>
+    <!--glavni box-->
+    <div class="omotac">
+        <aside>
+            <h3>This is <span>aside</span> section</h3>
+            <div>
+                <img src="./Mona_Lisa,_by_Leonardo_da_Vinci.jpg" alt="Mona Liza">
+            </div>
+            <form>
+                <!--formular za popunjavanje-->
+                <fieldset>
+                    <div>
+                        <label for="ime">Name</label><br>
+                        <input id="ime" type="text"><br>
+                        <label for="prezime">Surname</label><br>
+                        <input id="prezime" type="text"><br>
+                        <!--polje za viselinijski unos teksta-->
+                        <label for="personal">About Yourself</label><br>
+                        <textarea id="personal" placeholder="Some text" rows="3" cols="16"></textarea><br>
+                        <!--padajuca lista za odabir grada-->
+                        <label>City</label><br>
+                        <select>
+                            <option>--City--</option>
+                            <option>Beograd</option>
+                            <option>Novi Sad</option>
+                            <option>Kragujevac</option>
+                            <option>Nis</option>
+                        </select>
+                    </div>
+                    <hr>
+                    <div>
+                        <!--radio button za odabir jedne od opcija-->
+                        <label>Gender</label><br>
+                        <label for="muski" class="no_red">Male</label>
+                        <!--svim inputima dodeljujemo istu vrednost atributa name-->
+                        <input id="muski" type="radio" name="pol" value="male">
+                        <label for="zenski" class="no_red">Female</label>
+                        <input id="zenski" type="radio" name="pol" value="female">
+                    </div>
+                    <hr>
+                    <div>
+                        <!--stikliranje obuke-->
+                        <label>Course</label><br>
+                        <input id="html" type="checkbox" value="H">
+                        <label for="html" class="no_red">HTML</label><br>
+                        <input id="css" type="checkbox" value="C">
+                        <label for="css" class="no_red">CSS</label><br>
+                        <input id="js" type="checkbox" value="JS">
+                        <label for="js" class="no_red">Javascript</label>
+                    </div>
+                    <hr>
+                    <div>
+                        <!--dugme za slanje unetih poodataka serveru-->
+                        <input type="submit" value="Submit">
+                    </div>
+                </fieldset>
+            </form>
+        </aside>
+        <main>
+            <h2>This is main section</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <div>
+                <img src="./tree.jpg" alt="Drvo u sumrak">
+            </div>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                software like Aldus PageMaker including versions of Lorem Ipsum.Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry. Lorem Ipsum has been the
+                industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.</p>
+        </main>
+    </div>
+
+
+</body>
+
+</html>

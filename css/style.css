@@ -1,0 +1,115 @@
+/*uvozim google font*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&display=swap');
+/*cesto koriscene vrednosti - varijable*/
+:root {
+    --color-white: rgb(255, 255, 255);
+    --color-red: rgb(228, 41, 41);
+    --color-purple: rgb(95, 28, 156);
+    --color-grey: rgb(102, 100, 100)
+}
+/*generalno*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+h1, h2, h3 {
+    font-family: 'PT Serif', serif;
+}
+h1 {
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+ul {
+    margin-bottom: 10px;
+    list-style: none; 
+    text-align: center;
+}
+ul li {
+    display: inline-block;
+    /* margin-right: 10px; */
+    padding: 10px;
+    color: var(--color-purple);
+    transition: 0.5s;
+}
+ul li a {
+    width: 100%;
+    height: 100%;
+    letter-spacing: 0.1em;
+}
+ul li:hover {
+    border: 1px solid var(--color-purple);
+    background-color: var(--color-red);
+    }
+ul li a:active {
+    color: var(--color-white);
+}
+/*izgled glavnog dela*/
+.omotac {
+    margin: 20px 200px;
+    display: flex;
+    justify-content: space-between;
+}
+/*bocni stubac*/
+aside {
+    flex-basis: 25%;
+}
+h3 {
+    padding: 20px 0 5px 0;
+    font-size: 1.3em;
+}
+span, label:not(.no_red) {
+    color: var(--color-red); 
+    text-shadow: 1px 1px 1px var(--color-grey);
+}
+span {
+    font-style: italic;
+}
+label:not(.no_red) {
+    letter-spacing: 1px;
+}
+.no_red {
+    margin-left: 3px;
+}
+fieldset {
+    border: 1px solid var(--color-grey);
+    padding: 0 10px;
+}
+/*podesavam margine i padding u formi*/
+fieldset div {
+    margin: 10px 0;
+}
+input[type="text"], textarea {
+    width: 70%;
+}
+#muski {
+    margin-right: 15px;
+}
+#html {
+    margin-top: 10px;
+}
+input[type="submit"] {
+    padding: 5px 10px;
+    transition: 0.5s;
+}
+input[type="submit"]:hover {
+    background-color: var(--color-red);
+    cursor: pointer;
+}
+/*leva strana sa drvetom*/
+main {
+    flex-basis: 72%;
+    padding-right: 100px;
+}
+main h2 {
+    padding-bottom: 20px;
+}
+main p {
+    /* font-size: 0.8em; */
+}
+main div {
+    padding: 20px 0;
+}
+main div img {
+    width: 90%;
+}

@@ -1,0 +1,18 @@
+# Sajt
+
+## Specifikacije:
+
+1. Sadrzi najvise jednu stranicu.
+2. Sadrzi najmanje po jedan od sledecih elemenata:
+    * h1
+    * p
+    * img
+    * button
+    * ul / ol
+    * form (input, select, textarea)
+
+## Napomena: 
+1. Najbitnije koristiti semanticke oznake (header, footer, main , ...)
+2. Domaci se predaje u folderu Nedelja1
+3. Rok za predaju domaceg je sreda do 19h
+4. CSS pisati tako da stranica sto vise lici na primer sa slike
